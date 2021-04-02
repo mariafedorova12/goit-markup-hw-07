@@ -99,6 +99,11 @@ img {
   padding-bottom: 60px;
 }
 
+.portfolio.container {
+  padding-bottom: var(--section-pb);
+  padding-top: var(--section-pb);
+}
+
 .logo {
   margin-right: 93px;
   font-family: var(--secondary-font);
@@ -580,11 +585,6 @@ img {
   cursor: pointer;
 }
 
-.portfolio.container {
-  padding-bottom: var(--section-pb);
-  padding-top: var(--section-pb);
-}
-
 .portfolio-list {
   display: flex;
   align-items: center;
@@ -639,7 +639,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--header-background-color);
@@ -654,13 +653,11 @@ img {
   padding-top: var(--section-pt);
   padding-bottom: 47px;
 }
-
 .about__item {
   flex-basis: calc((100% / 4) - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-
 .about__title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -668,13 +665,11 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
 .about__description {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-description-color);
 }
-
 .about__cardset {
   display: flex;
   justify-content: center;
