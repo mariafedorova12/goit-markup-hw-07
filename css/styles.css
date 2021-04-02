@@ -639,7 +639,7 @@ img {
 
 /*====== CARDS =======*/
 
-.cardset-list {
+.cardset {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -647,14 +647,14 @@ img {
   margin-top: -30px;
 }
 
-.cardset-list__item {
+.cardset__item {
   max-width: 370px;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% / 3) - 30px);
 }
 
-.cardset-list__content-wrapper {
+.cardset__content-wrapper {
   max-width: 370px;
   padding: 20px 24px;
   border: 1px solid;
@@ -662,7 +662,7 @@ img {
   border-color: #ececec;
 }
 
-.cardset-list__title {
+.cardset__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -670,22 +670,22 @@ img {
   letter-spacing: 0.06em;
 }
 
-.cardset-title__description {
+.cardset__description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-description-color);
 }
 
-.cardset-list__item:hover,
-.cardset-list__item:focus {
+.cardset__item:hover,
+.cardset__item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.cardset-list__wrapper {
+.cardset__wrapper {
   position: relative;
   overflow: hidden;
 }
-.cardset-list__overlay {
+.cardset__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -701,8 +701,8 @@ img {
   color: var(--header-background-color);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cardset-list__wrapper:hover .cardset-list__overlay,
-.cardset-list__wrapper:focus .cardset-list__overlay {
+.cardset__wrapper:hover .cardset__overlay,
+.cardset__wrapper:focus .cardset__overlay {
   transform: translateY(0%);
   opacity: 1;
 }
