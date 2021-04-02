@@ -171,22 +171,21 @@ img {
   color: var(--accent-color);
 }
 
-.contact-list {
+.contact {
   display: flex;
   margin-left: auto;
 }
-.contact-list__item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
 }
-.contact-list__link {
+.contact__link {
   margin-right: 50px;
 }
-
-.current {
+.menu__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.menu__link--current::after {
   content: ' ';
   display: block;
   position: absolute;
@@ -198,7 +197,7 @@ img {
   background: var(--accent-color);
 }
 
-.contact-list__item {
+.contact__item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -206,7 +205,7 @@ img {
   color: var(--text-description-color);
 }
 
-.contact-list__link {
+.contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -216,25 +215,25 @@ img {
 
 /*========HEADER ICONS========*/
 
-.contact-list__icon {
+.contact__icon {
   margin-right: 10px;
   color: var(--text-description-color);
   fill: var(--text-description-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list__link:hover,
-.contact-list__link:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--accent-color);
 }
 
-.contact-list__icon:hover,
-.contact-list__icon:focus {
+.contact__icon:hover,
+.contact__icon:focus {
   fill: var(--accent-color);
 }
 
-.contact-list__link:hover .contact-list__icon,
-.contact-list__link:focus .contact-list__icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: var(--accent-color);
 }
 
@@ -306,37 +305,34 @@ img {
 /*======= ABOUT ========= */
 
 .about {
-  padding-top: var(--section-pt);
-  padding-bottom: 47px;
-}
-
-.about-list {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
   margin-left: -30px;
   margin-top: -30px;
+  padding-top: var(--section-pt);
+  padding-bottom: 47px;
 }
 
-.about-list__item {
+.about__item {
   flex-basis: calc((100% / 4) - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.about-list__title {
+.about__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.about-list__description {
+.about__description {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-description-color);
 }
-.about-list__cardset {
+.about__cardset {
   display: flex;
   justify-content: center;
   align-items: center;
