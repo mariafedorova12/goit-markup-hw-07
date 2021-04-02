@@ -521,11 +521,11 @@ img {
   margin-right: 0;
 }
 
-.adress-list__item:not(:last-child) {
+.adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.adress-list__link {
+.adress__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -533,7 +533,7 @@ img {
   margin-bottom: 9px;
 }
 
-.adress-list__item {
+.adress__link--light {
   color: var(--secondary-text-color);
 }
 
@@ -550,11 +550,6 @@ img {
   letter-spacing: 0.03em;
   fill: solid;
   color: #ffffff;
-}
-
-.social-list--footer {
-  display: flex;
-  align-items: center;
 }
 
 .social-list__item--footer:not(:last-child) {
