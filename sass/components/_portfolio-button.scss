@@ -9,10 +9,12 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-
-.portfolio__item:not(:last-child) {
-  margin-right: 8px;
+.portfolio__item{
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
+
 
 .portfolio-list__button {
   border: none;

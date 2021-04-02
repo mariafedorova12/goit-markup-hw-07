@@ -1,6 +1,11 @@
-.adress__item:not(:last-child) {
-  margin-bottom: 9px;
+
+.adress__item{
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
+
+
 
 .adress__link {
   font-size: 14px;

@@ -28,10 +28,12 @@
     fill: var(--header-background-color);
   }
 }
-
-.social-list__item--footer:not(:last-child) {
-  margin-right: 10px;
+.social-list__item--footer{
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
+
 .join {
   display: inline-block;
   margin-bottom: 21px;
