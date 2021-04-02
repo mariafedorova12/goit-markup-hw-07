@@ -17,8 +17,7 @@
   background-color: var(--accent-color);
   border: 0px;
   cursor: pointer;
-}
-
-.btn:focus {
-  background-color: #188ce8;
+  &focus {
+    background-color: #188ce8;
+  }
 }
